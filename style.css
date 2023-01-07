@@ -3,12 +3,12 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
-main{
-    width: 1140px;
-    margin: 0 auto;
+main {
+  width: 1140px;
+  margin: 0 auto;
 }
-section{
-    margin-top: 130px;
+section {
+  margin-top: 130px;
 }
 /* header styles */
 .banner-section {
@@ -39,32 +39,58 @@ section{
   padding: 20px 25px;
 }
 /* failures section styles */
-.achievement-section-data,.failure-section-data{
-    display: flex;
-    align-items: center;
-    gap: 85px;
+.achievement-section-data,
+.failure-section-data {
+  display: flex;
+  align-items: center;
+  gap: 85px;
 }
-.section-title{
-    font-size: 40px;
-    font-weight: 700;
-    color: #151414;
-    padding-bottom: 24px;
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  padding-bottom: 24px;
 }
-.section-des{
-    font-size: 16px;
-    color: #444343;
-    line-height: 26px;
-    margin-bottom: 16px;
+.section-des {
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 16px;
 }
-ul li{
-    list-style: none;
-    font-size: 16px;
-    color: #444343;
-    margin-bottom: 8px;
+ul li {
+  list-style: none;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 8px;
 }
-li img{
-    width: 24px;
+li img {
+  width: 24px;
 }
-i{
-    font-weight: bold;
+i {
+  font-weight: bold;
+}
+/* plan section styles */
+.plan-section .section-title {
+  text-align: center;
+}
+.plans {
+  text-align: center;
+  margin-top: 50px;
+}
+.plan-list {
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+}
+.section-subtitle {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+.plan-des {
+  font-weight: 500;
+  font-size: 25px;
+  color: #727372;
 }
