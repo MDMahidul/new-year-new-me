@@ -3,6 +3,13 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
 /* header styles */
 .banner-section {
   background-image: url("images/banner/banner2.png");
@@ -30,4 +37,34 @@
   background: #f15b22;
   border-radius: 5px;
   padding: 20px 25px;
+}
+/* failures section styles */
+.achievement-section-data,.failure-section-data{
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding-bottom: 24px;
+}
+.section-des{
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+li img{
+    width: 24px;
+}
+i{
+    font-weight: bold;
 }
